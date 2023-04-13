@@ -1,0 +1,52 @@
+table {
+    background-color: #c0a4eb; /* violet clair */
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #704f9b; /* blanc */
+    border-bottom: 1px solid #bb1ae4;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f8d3f8; /* blanc */
+  }
+  
+  tr:hover {
+    background-color: #fffdfd;
+  }
+  
+  td a {
+    color: #000000;
+  }
+  .envoyer-btn {
+    background-color: #5e27b6b6; /* set the background color to dark green */
+    color:white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .envoyer-btn:hover {
+    background-color: #696cff; /* set the hover background color to a darker shade of green */
+  }
+  .red-btn {
+    background-color:  #696cff; /* set the background color to red */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .red-btn:hover {
+    background-color: #3751c7b6; /* set the hover background color to a darker shade of red */
+  }

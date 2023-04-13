@@ -1,0 +1,50 @@
+.envoyer-btn {
+    background-color: #006400; /* set the background color to dark green */
+    color:white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .envoyer-btn:hover {
+    background-color: #004c00; /* set the hover background color to a darker shade of green */
+  }
+  .red-btn {
+    background-color: #ff0000; /* set the background color to red */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .red-btn:hover {
+    background-color: #cc0000; /* set the hover background color to a darker shade of red */
+  }
+  table {
+    background-color: #8cd18e; /* set the background color to a light green */
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #006400; /* set the background color of the table headers to dark green */
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e8f5e9; /* set the background color of even rows to a lighter shade of green */
+  }
+  
+  tr:hover {
+    background-color: #c5e1a5; /* set the hover background color to a darker shade of green */
+  }
